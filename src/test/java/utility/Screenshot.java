@@ -13,7 +13,7 @@ import org.openqa.selenium.io.FileHandler;
 
 public class Screenshot {
 	
-	
+	// this is sample comment
 public static void captureScreen(WebDriver driver, String name) throws IOException {
 		
 		String path = System.getProperty("user.dir") + "\\Screenshot\\" + name+".png";
