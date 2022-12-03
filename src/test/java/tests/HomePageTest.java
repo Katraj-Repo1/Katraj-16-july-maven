@@ -46,7 +46,7 @@ public  void initObject() {
 	@Test (priority=1)
 	public void verifyTitle() {
 		
-		Assert.assertEquals(driver.getTitle(), "HRM", "Title does not matched");
+		Assert.assertFalse(driver.getTitle().equals("HRM"), "Title does not matched");
 	}
 	
 	@AfterClass
